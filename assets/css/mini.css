@@ -1,0 +1,37 @@
+/* For Text Only pages */
+
+body {
+    background-color: #333333;
+}
+
+.bianco {
+    color: whitesmoke;
+}
+
+.spacer {
+    margin: 5em 0;
+}
+
+.spacermini {
+    margin: 2em 0;
+}
+
+.terattivo a {
+    color: #4ae24a;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.terattivo a:hover {
+    color: #b25ff7;
+}
+
+.terattivo h1,
+h2 {
+    font-family: 'SBld';
+}
+
+.terattivo p,
+li {
+    font-family: 'Mdm';
+}

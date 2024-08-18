@@ -3,421 +3,215 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
-    <meta charset=UTF-8>
-    <meta content="width=device-width,initial-scale=1.0" name=viewport>
-    <title>Eyed Out - The Private Browser.</title>
-    <meta content="Aploide" property=og:title>
-    <meta content="Aploide" name=author>
-    <meta content="Get Eyed Out browser, now available on iOS!"
-        name=description>
-    <meta content=en_US property=og:locale>
-    <link href=index.html rel=canonical>
-    <meta content=https://aploi.de property=og:url>
-    <meta content="Aploide" property=og:site_name>
-    <meta content="Get Eyed Out browser, now available on iOS!"
-        property=og:description>
-    <meta content="Aploide" property=og:image:alt>
-    <meta content=website property=og:type>
-    <link rel="shortcut icon" href=https://aploi.de/favicon.ico type=image/png>
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eyed Out - The Private Browser.</title>
+  <meta name="description" content="A lightweight, privacy-first browser that gives you control, delivering fast, secure, and
+      hassle-free browsing.">
+  <meta name="author" content="Aploide">
+  <link rel="canonical" href="https://aploi.de/index.html">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/png">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
-@font-face {
-  font-family: XBld;
-  src: url('https://aploi.de/font/000.woff2');
- }
- @font-face {
-  font-family: SBld;
-  src: url('https://aploi.de/font/001.woff2');
- }
- @font-face {
-  font-family: Mdm;
-  src: url('https://aploi.de/font/002.woff2');
- }
+  <meta property="og:url" content="https://aploi.de">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Eyed Out - The Private Browser.">
+  <meta property="og:description" content="A lightweight, privacy-first browser that gives you control, delivering fast, secure, and
+    hassle-free browsing.">
+  <meta property="og:image" content="/assets/img/eyed.og.jpg">
+  <meta property="og:image:alt" content="Eyed Out">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Eyed Out - The Private Browser.">
 
-  body {
-    background-color: #333333;
-    overflow: hidden;
+  <link rel="stylesheet" href="/assets/css/eyed.css">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
 
-  }
-
-
-  
-  main{
-    background: radial-gradient(circle farthest-side, #343434 0%, #333333 100%);
-  }
-
-  .ascii {
-    font: 1.8px/2px monospace; 
-    background-color: clear; 
-    color: white;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    overflow-x: hidden; 
-    overflow-y: hidden; 
-    border: none;
-    width: 100%;
-}
-
-.a-terattivo {
-    line-height: 1;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    outline: 0;
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-  .verde {
-    letter-spacing: 0em;
-    color: #4ae24a;
-  }
-
-  .viola {
-    letter-spacing: 0em;
-    color: #9a44e0;
-  }
-
-  .bianco {
-    letter-spacing: 0em;
-    color: whitesmoke;
-  }
-
-  
-  
-    
-    .i-terattivo {
-        position: absolute;
-        bottom: 6%;
-        left: 0;
-        right: 0;
-        padding: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .i-terattivo a {
-        text-decoration: none;
-    } 
-
-    .i-terattivo li {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .i-terattivo a {
-        color: #4ae24a;
-        text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s ease-in-out;
-  }
-
-  .i-terattivo a:hover {
-    color: #b25ff7;
-  }
-
-  .i-terattivo ul{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    flex-flow: row wrap;
-    gap: 1rem;
-  }
-
-  footer {
-    font-family: 'SBld';
-    font-weight: 400;
-    display: flex;
-    flex-flow: column nowrap;
-    text-align: center;
-    gap: 1rem;
-    padding: 2rem;
-    z-index: 5;
-}
-
-  .logo{
-    letter-spacing: -0.13em;
-    font-family: 'XBld';
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .bott{
-    flex-flow: wrap;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .a-copy {
-    list-style: none;
-    font-family: 'Mdm';
-    color: whitesmoke;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-  }
-  
-  .AppStore{
-    width: 100%;
-    height: auto;
-  }
-
-    </style>
 </head>
 
 <body>
-    <main>
-        <section class="a-terattivo">
-            <pre class="ascii">                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                        ....................................                                                                                                                                                                                                                                                    
-                                                                                                       ...................................................................                                                                                                                                                                                                                                      
-                                                                                            ........................................................................................                                                                                                                                                                                                                            
-                                                                                   ........................................................................................................                                                                                                                                                                                                                     
-                                                                           .......................................................................................................................                                                                                                                                                                                                              
-                                                                      .................................................................................................................................                                                                                                                                                                                                         
-                                                                      .......................................................................................................................................                                                                                                                                                                                                   
-                                                                      ............................................................................................................................................                                                                                                                                                                                              
-                                                                      ................................................................................................................................................                                                                                                                                                                                          
-                                                                       ...................................................................................................................................................                                                                                                                                                                                      
-                                                                       .................',,;;;;:::::::::::;;;,,,'''...........................................................................................................                                                                                                                                                                                  
-                                                                       ................'dKXXNNNNNNWWNNWNNNNNNXXXKKK0Okkxdolc:;,'..................................................................................................                                                                                                                                                                              
-                                                                       ................,kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWNXK0Oxdoc;,'............................................................................................                                                                                                                                                                           
-                                                                        ...............'xWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXKOxoc:,.........................................................................................                                                                                                                                                                        
-                                                                        ...............'dWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNX0kdl:,......................................................................................                                                                                                                                                                     
-                                                                        ................oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNX0xoc;'...................................................................................                                                                                                                                                                  
-                                                                        ................lXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0kdc;'.................................................................................                                                                                                                                                               
-                                                                         ...............:0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNKkdc;'...............................................................................                                                                                                                                                            
-                                                                         ...............,kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0koc,'............................................................................                                                                                                                                                          
-                                                                          ...............dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0xo:,...........................................................................                                                                                                                                                       
-                                                                          ...............cKMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXOxl:'........................................................................                                                                                                                                                     
-                                                                          ...............,OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNKOdc;'......................................................................                                                                                                                                                  
-                                                                           ...............oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0ko:,....................................................................                                                                                                                                                
-                                                                           ...............:0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNXOdc;..................................................................                                                                                                                                              
-                                                                            ..............'dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKl. .................................................................                                                                                                                                            
-                                                                            ...............:KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,      ...............................................................                                                                                                                                          
-                                                                             ..............'xWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXl            ............................................................                                                                                                                                        
-                                                                             ...............:KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.               ...........................................................                                                                                                                                      
-                                                                              ..............'dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK;                    .........................................................                                                                                                                                    
-                                                                              ...............:0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNd.                       ........................................................                                                                                                                                  
-                                                                               ...............oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                            ......................................................                                                                                                                                
-                                                                                ..............,kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo.                               .....................................................                                                                                                                              
-                                                                                ...............cKMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                                   ....................................................                                                                                                                            
-                                                                                 ...............oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo.                                      ..................................................                                                                                                                           
-                                                                                  ..............,kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                                          .................................................                                                                                                                         
-                                                                                  ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWd.                                          .:l,..............................................                                                                                                                        
-                                                                                   ...............lXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:                                            :0Kkc'.............................................                                                                                                                      
-                                                                                    ...............oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk.                                            .dWMWKd:'............................................                                                                                                                    
-                                                                                     ..............,xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                              ,0MMMWNOo;...........................................                                                                                                                   
-                                                                                     ...............,kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK;                                              .oNMMMMMWXkc'..........................................                                                                                                                 
-                                                                                      ...............;OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.                                               ,0MMMMMMMMN0o;.........................................                                                                                                                
-                                                                                       ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                .dNMMMMMMMMMWXkc'.......................................                                                                                                               
-                                                                                        ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK;                                                 ;KMMMMMMMMMMMMN0o,.......................................                                                                                                             
-                                                                                         ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO.                                                 .kWMMMMMMMMMMMMMWKx:......................................                                                                                                            
-                                                                                          ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.                                                  lNMMMMMMMMMMMMMMMWXkc'....................................                                                                                                           
-                                                                                           ...............:0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                   ;KMMMMMMMMMMMMMMMMMMN0o,....................................                                                                                                         
-                                                                                            ...............;OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:                                                   .kWMMMMMMMMMMMMMMMMMMMWKd;...................................                                                                                                        
-                                                                                             ...............;kNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                                                   .dWMMMMMMMMMMMMMMMMMMMMMWXx:..................................                                                                                                       
-                                                                                              ...............'dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO.                                                    lNMMMMMMMMMMMMMMMMMMMMMMMWXk:.................................                                                                                                      
-                                                                                               ................lKMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.                                                    cXMMMMMMMMMMMMMMMMMMMMMMMMMMNkc................................                                                                                                     
-                                                                                                ................:OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWd.                                                    ;KMMMMMMMMMMMMMMMMMMMMMMMMMMMMNkc................................                                                                                                   
-                                                                                                 ................,xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo                                                     ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNkc...............................                                                                                                  
-                                                                                                  ................'lKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                     ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNkc..............................                                                                                                 
-                                                                                                   .................;xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXc                                                     ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNk:.............................                                                                                                
-                                                                                                    ..................c0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXc                                                     ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXk:............................                                                                                               
-                                                                                                      .................,dKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMX:                                                     ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXx;...........................                                                                                              
-                                                                                                       ..................;xXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXc                                                     ;KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKd,..........................                                                                                             
-                                                                                                        ...................:kXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXc                                                     :XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0o'.........................                                                                                            
-                                                                                                          ...................:kXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                     cXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNOc.........................                                                                                           
-                                                                                                           ....................:kXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                     lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNk;........................                                                                                          
-                                                                                                             ....................:xXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWd.                                                   .dWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXd,.......................                                                                                         
-                                                                                                              .....................:xXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk.                                                   .kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0l'.....................                                                                                         
-                                                                                                                .....................;xKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMO'                                                   ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNk:.....................                                                                                        
-                                                                                                                  .....................;dKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK,                                                   :XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXd,....................                                                                                       
-                                                                                                                   ......................,l0NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXc                                                  .oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0c....................                                                                                      
-                                                                                                                     ......................'ckXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo.                                                 .kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXx,...................                                                                                     
-                                                                                                                       .......................;dKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMk.                                                 ,KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0l'.................                                                                                     
-                                                                                                                         .......................,lONMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0,                                                 lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx;.................                                                                                    
-                                                                                                                           .......................':xKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNl                                                .kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0l.................                                                                                   
-                                                                                                                             ........................,lONWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWx.                                               ;KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx,................                                                                                  
-                                                                                                                               .........................:d0NMMMMMMMMMMMMMMMMMMMMMMMMMMMMK,                                              .oWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0c...............                                                                                  
-                                                                                                                                 .........................'cxKWMMMMMMMMMMMMMMMMMMMMMMMMMNl                                              ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXd,..............                                                                                 
-                                                                                                                                   ..........................,lkXWMMMMMMMMMMMMMMMMMMMMMMWO.                                             lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO:..............                                                                                
-                                                                                                                                     ...........................,lOXWMMMMMMMMMMMMMMMMMMMMXc                                            'OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKo'............                                                                                
-                                                                                                                                        ...........................;oOXWMMMMMMMMMMMMMMMMMWk.                                           lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx,............                                                                               
-                                                                                                                                          ............................;okXWMMMMMMMMMMMMMMMK:                                          'OMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO:............                                                                              
-                                                                                                                                             ............................,lkKNMMMMMMMMMMMMWk.                                        .oNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKl'..........                                                                              
-                                                                                                                                               .............................,cd0NWMMMMMMMMMXc                                        ;0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx,..........                                                                             
-                                                                                                                                                  .............................';okXWMMMMMMWO'                                      .xWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk;.........                                                                             
-                                                                                                                                                     ..............................,cd0XWMMMNo.                                     cXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0c.........                                                                            
-                                                                                                                                                        ...............................;lx0NWK:                                    ,0MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKo'........                                                                           
-                                                                                                                                                           ...............................';lxl.                                  .xWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXd'.......                                                                           
-                                                                                                                                                              ..................................                                 .lNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNx,.......                                                                          
-                                                                                                                                                                 ...................................                             :KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO;......                                                                          
-                                                                                                                                                                     .....................................                      ,OWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO:.....                                                                          
-                                                                                                                                                                         ......................................                .kWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0c.....                                                                         
-                                                                                                                                                                            ........................................          .dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKc....                                                                         
-                                                                                                                                                                                 ........................................    .lXMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKl....                                                                        
-                                                                                                                                                                                     .........................................,coxOKNWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXl...                                                                        
-                                                                                                                                                                                          .........................................';:ldkOKXNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXl..                                                                        
-                                                                                                                                                                                               ...........................................';:loxk0KXNWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXl..                                                                       
-                                                                                                                                                                                                    ..............................................',:cldxk0KXNWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKl.                                                                       
-                                                                                                                                                                                                           ................................................',;:cldxkO0KXXNNWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKc.                                                                      
-                                                                                                                                                                                                                  ....................................................',,;:cloddxkOO0KKXXNNWWWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWK:                                                                      
-                                                                                                                                                                                                                          ...........................................................'',,;;::cclloodddxxxkkkkOOOOOO000000000KKKKKKKKKKK00o.                                                                     
-                                                                                                                                                                                                                                   ....................................................................................'''''''''.........                                                                       
-                                                                                                                                                                                                                                              ........................................................................                                                                                          
-                                                                                                                                                                                                                                                                ...................................                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                
+  <!-- 
+                       ....::::::::...                                                    
+                ::--======================-:.                                             
+                ===============================-:.                                        
+                -===         ..:-==================-:                                     
+                :===               .:-================-.                                  
+                 ===:                   .:-==============:                                
+                 -===                      #%#*============:                              
+                  ===:                    -@@@@@%*+==========:                            
+                  :===.                   %@@@@@@@@%-==========.                          
+                   -===                  .@@@@@@@@@@+ .-========:                         
+                    -===                 =@@@@@@@@@@@   .-=======-                        
+                     -===.               *@@@@@@@@@@@.     :=======.                      
+                      -===:              #@@@@@@@@@@@:       :======.                     
+                       :===-.            #@@@@@@@@@@@:         -=====.                    
+                         -===-.          *@@@@@@@@@@@           .-====.                   
+                          .=====:        =@@@@@@@@@@#             :====                   
+                            .=====-.     .@@@@@@@@@@=               -==-                  
+                              .-=====:.   *@@@@@@@@%                 :==.                 
+                                 :-=====-::@@@@@@@@-                  .==                 
+                                    :-=====+*#%@@@+                    .=.                
+                                        :--=====+*:..                    -                
+                                             .:--=======--:::.....       .                
+                                                    ...:::::::::::::...                   
+-->
 
-                                                                                        
-                                                                                                                                                                                                                                                                                                        
+  <main>
+    <div class="hero" id="hero">
+      <div>
+        <div class="title">Eyed Out</div>
+        <div class="p-title">Your privacy, reimagined.</div>
+      </div>
+      <div class="desc">A lightweight, privacy-first browser that gives you control, delivering <b>fast, secure, and
+          hassle-free browsing.</b>
+      </div>
+      <div class="CTA">
+        <a class="a-main" href="https://apps.apple.com/app/eyed-out-private-web-browser/id6475011990"><span>Get Eyed
+            Out</span></a>
+        <a class="a-non-main" href="#features"><span>Explore Features</span></a>
+      </div>
+    </div>
 
-</pre>
-        </section>
-        <footer class="i-terattivo">
-            <ul class="bott">
-           <li class="AppStore">
-            <a href="https://apps.apple.com/app/eyed-out-private-web-browser/id6475011990"><img alt="Get it on the AppStore" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1707091200"></a>
-           </li>
+    <div class="features" id="features">
+      <div class="feature" style="background-image: url('/assets/img/lock.svg');">
+        <div class="text">
+          <div class="f-title">No History, <b>Full Privacy.</b></div>
+          <div class="f-desc">Keep your searches completely private, with <b>no history stored.</b></div>
+        </div>
+      </div>
+      <div class="feature" style="background-image: url('/assets/img/otus.svg');">
+        <div class="text">
+          <div class="f-title">Built-in AI assistant</div>
+          <div class="f-desc"><b class="otus">OtusAI</b>: <b>Fast, private,</b> personalized search results.</div>
+        </div>
+      </div>
+      <div class="feature" style="background-image: url('/assets/img/spoof.svg');">
+        <div class="text">
+          <div class="f-title">Web Agent Spoofing</div>
+          <div class="f-desc">Disguise as another browser, device, or OS for <b>online anonymity.</b></div>
+        </div>
+      </div>
+      <div class="feature" style="background-image: url('/assets/img/short.svg');">
+        <div class="text">
+          <div class="f-title">Eyed Shortener</div>
+          <div class="f-desc">Simplify your links <b>without compromising on security.</b></div>
+        </div>
+      </div>
+      <div class="feature" style="background-image: url('/assets/img/tmails.svg');">
+        <div class="text">
+          <div class="f-title">Temporary Emails</div>
+          <div class="f-desc">Create temporary emails in-app and <b>keep your inbox spam-free.</b></div>
+        </div>
+      </div>
+    </div>
 
-           </ul>
+    <div class="FAQ" id="FAQ">
+      <div class="fq-title">FAQs</div>
+      <div class="fq-questions">
+        <details class="mid">
+          <summary>What is Eyed Out, and how does it enhance my online privacy?</summary>
+          <p>Eyed Out is a privacy-focused browser designed to give you complete control over your online experience. It
+            enhances your privacy by blocking trackers, ads, and cookies, ensuring that your browsing data is never
+            collected or shared. <br><br>
+            With features like web agent spoofing, a built-in proxy, and no search history storage, Eyed Out keeps your
+            identity and activities completely private, making it the ideal choice for users who prioritize security and
+            anonymity online.</p>
+        </details>
+        <details class="mid">
+          <summary>Why should I use Eyed Out instead of Chrome, Safari, or Firefox?</summary>
+          <p>Google and Mozilla have made significant strides in browser technology, but Eyed Out takes privacy and
+            performance to the next level. With an optimized engine for faster browsing (based off <a href="https://webkit.org/">WebKit</a>), Eyed Out also ensures your
+            privacy with a strict no-tracking policy and built-in ad and tracker blocker. <br><br>
+            Unlike other browsers, Eyed Out never collects or shares your data. It's designed for users who prioritize
+            security, speed, and control over their online experience.</p>
+        </details>
 
-            <ul class="bott">
-                <li>
-                    <h1 class="logo">
-                    <a href="https://aploi.de">
-                    <span class="verde">A</span>
-                    <span class="bianco">PLOI</span>
-                    <span class="viola">.</span>
-                    <span class="bianco">DE</span>
-                    </a>
-                    </h1>
-               </li>
-                <li><a href="mailto:yo@aploi.de">Support</a></li>
-                <li><a href="https://aploi.de/privacy">Privacy</a></li>
-                <li><a href="https://github.com/Aploide">GitHub</a></li>
-            </ul>
-            <ul class="a-copy">
-                <li><span>CxrloDesign©</span></li>
-            </ul>
-        </footer>
-    </main>
+        <details class="mid">
+          <summary>Is Eyed Out open source?</summary>
+          <p>Eyed Out is not fully open source, but some of its components are open source. By leveraging trusted open
+            source technologies alongside proprietary features, Eyed Out provides a balanced combination of transparency
+            and innovation. <br><br>
+            Some of the components can be seen on our GitHub: <a href="https://github.com/aploide">Aploide</a></p>
+        </details>
+
+        <details class="mid">
+          <summary>Is Eyed Out truly secure if it's not open source?</summary>
+          <p>The idea that "open source = secure" isn't always accurate. For instance, some popular open source browsers
+            are backed by companies with vast ad and tracking networks, meaning that even an open source browser can
+            contribute to extensive data collection. On the other hand, there are closed-source browsers that prioritize
+            privacy and are leaders in privacy-focused technologies. <br><br>
+
+            To truly protect your privacy, consider these two key questions:<br><br>
+
+            <b>Does this browser collect and send data anywhere?</b><br><br>
+
+            <b>How does this browser make money?</b><br><br>
+
+            When it comes to data collection, even open source browsers don't always reveal what happens with the data
+            they collect.<br><br>
+
+            Unlike Eyed Out, many modern browsers send a significant amount of data, including your IP address and
+            browsing details, to various servers.<br><br>
+
+            Eyed Out, however, operates under a strict no-tracking policy, ensuring that no unexpected data packets are
+            sent from your device.<br><br>
+
+            As for the business model, many companies behind free, open source browsers generate revenue through
+            advertising and data-related services.<br><br>
+
+            Understanding how a browser makes money is essential in determining whether you can trust it with your
+            private information.<br><br>
+
+            With Eyed Out, you can be confident that <b>your data is never part of the equation.</b></p>
+        </details>
+
+        <details class="mid">
+          <summary>How does this browser make money?</summary>
+          <p>Eyed Out generates revenue <b>solely through Eyed Pro</b>, our premium subscription plan. This allows us to keep
+            the core features of the browser free for everyone while ensuring that our business model doesn't rely on
+            ads, tracking, or data collection. Additionally, we donate 5% of all our revenues to the Arbor Day
+            Foundation, supporting environmental sustainability and giving back to the planet.</p>
+        </details>
+
+        <details class="mid">
+          <summary>What does Eyed Pro offer?</summary>
+          <p>Eyed Pro, available for just $5.99 per month or $44.99 per year, provides access to a suite of premium
+            features including OtusAI, our advanced AI-powered web search tool. Subscribers also unlock exclusive icons
+            and themes. Additionally, a portion of your subscription helps support the Arbor Day Foundation.<br><br>
+
+            We're also actively developing our own search engine and email service, with Eyed Pro revenues funding these
+            projects and helping keep the core features of the browser free for all users.</p>
+        </details>
+
+        <details>
+          <summary>How does Eyed Out's web agent spoofing protect my online identity?</summary>
+          <p>Eyed Out's web agent spoofing feature enhances your online privacy by disguising your browser's identity
+            and making it harder for websites to track you.<br><br>
+
+            By altering the browser's user agent string, Eyed Out prevents sites from accurately identifying and
+            profiling you based on your device or browser type. This helps protect your personal information and reduces
+            the risk of being tracked or fingerprinted online.</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="title-2">Take control of your online privacy today.</div>
+      <a class="a-main" href="https://apps.apple.com/app/eyed-out-private-web-browser/id6475011990"><span>Get Eyed
+        Out</span></a>
+      <div class="mini">*available only on iOS, iPadOS, MacOS and VisionOS</div>
+    </div>
+
+    <footer>
+      <a href="https://aploi.de"><img src="/assets/img/logos.svg" alt="Eyed and Aploide Logos"></a>
+      <div class="l-links">
+        <a href="mailto:yo@aploi.de">Support</a>
+        <a href="https://aploi.de/eyed-TOS">Terms of Use</a>
+        <a href="https://aploi.de/privacy">Privacy Policy</a>
+        <a href="https://github.com/aploide">GitHub</a>
+      </div>
+      <div class="copyright">© 2024 Aploide | All rights reserved.</div>
+    </footer>
+  </main>
 </body>
+
 </html>

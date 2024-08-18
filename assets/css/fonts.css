@@ -1,0 +1,29 @@
+@font-face {
+    font-family: XBld;
+    src: url('/assets/font/XBld.woff2');
+}
+
+@font-face {
+    font-family: Bld;
+    src: url('/assets/font/Bld.woff2');
+}
+
+@font-face {
+    font-family: SBld;
+    src: url('/assets/font/Sbld.woff2');
+}
+
+@font-face {
+    font-family: Mdm;
+    src: url('/assets/font/Mdm.woff2');
+}
+
+@font-face {
+    font-family: Reg;
+    src: url('/assets/font/Reg.woff2');
+}
+
+@font-face {
+    font-family: Lig;
+    src: url('/assets/font/Lig.woff2');
+}

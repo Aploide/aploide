@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /assets/
+Allow: /assets/img/*.og.jpg
+Allow: /favicon.ico
+
+Sitemap: https://aploi.de/sitemap.xml
