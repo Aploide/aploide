@@ -9,7 +9,7 @@ main {
 }
 
 .a-terattivo {
-    font-family: 'Xbld';
+    font-family: 'bld';
     font-size: min(10em, 10vw);
     line-height: 1;
     font-weight: 700 !important;
